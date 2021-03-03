@@ -3,9 +3,8 @@ module.exports = {
     title: `Test`,
     description: `Test`,
     author: `Hayriye Aydin `,
-    siteUrl: `https://hayriyeaydin777.github.io/`,
   },
-/*   flags: {
+  /*   flags: {
     PRESERVE_FILE_DOWNLOAD_CACHE: true,
     PRESERVE_WEBPACK_CACHE: true,
     LAZY_IMAGES: true,
@@ -25,9 +24,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `Roboto\:100,300,400`,
-        ],
+        fonts: [`Roboto\:100,300,400`],
         display: 'swap',
       },
     },
@@ -45,10 +42,7 @@ module.exports = {
         svgoConfig: {
           pretty: true,
           multipass: true,
-          plugins: [
-            { removeViewBox: false },
-            { removeAttrs: { attrs: '(width|height)' } },
-          ],
+          plugins: [{ removeViewBox: false }, { removeAttrs: { attrs: '(width|height)' } }],
         },
       },
     },
@@ -94,5 +88,5 @@ module.exports = {
     },
     'gatsby-plugin-offline',
   ],
-  pathPrefix: "/test",
+  pathPrefix: '/test',
 };
