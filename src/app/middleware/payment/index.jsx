@@ -1,7 +1,6 @@
 import React from 'react';
-import Card from 'react-credit-cards';
 
-import { formatCreditCardNumber, formatCVC, formatExpirationDate } from './card-utils';
+
 import PopUp from '../../../components/PopUp';
 import banklogos from '../../../statics/svg/bank-logos';
 import svg from '../../../statics/svg';
@@ -151,14 +150,7 @@ export default class PaymentPage extends React.Component {
               </form>
             </div>
             <div className=" col-5 card-container">
-              <Card
-                number={number}
-                name={name}
-                expiry={expiry}
-                cvc={cvc}
-                focused={focused}
-                callback={this.handleCallback}
-              />
+Card Settings
               <div className="col-auto mt-4 mx-auto">
                 <p>
                   <b>Tek/Taksitli Çekim</b>
