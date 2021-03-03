@@ -1,0 +1,12 @@
+.darkTheme {
+  @extend .colorTheme;
+  background-color: #1A202C;
+  color: #fff;
+  a {
+    color: yellow;
+  }
+}
+
+header{
+  background: #083668;
+}

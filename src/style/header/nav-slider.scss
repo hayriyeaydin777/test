@@ -1,0 +1,17 @@
+.big-nav-slider {
+  max-height: 200px;
+  overflow: hidden;
+  padding: 0px;
+  .slick-slider {
+    .slick-prev {
+      left: 20px;
+      z-index: 1;
+      top: 110px;
+    }
+    .slick-next {
+      right: 20px;
+      z-index: 1;
+      top: 110px;
+    }
+  }
+}

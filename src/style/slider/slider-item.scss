@@ -1,0 +1,69 @@
+.banner .slick-slider {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.banner .slider-item {
+    position: relative;
+    height: 350px;
+
+    .slider-index {
+        position: relative;
+        height: 350px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+
+        .corparede {
+            font-size: 2em;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            font-weight: lighter;
+            color: #8a8a8a;
+        }
+
+        .slide-img {
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            flex: 1 1 100%;
+        }
+
+        .text {
+            padding: 15px 25%;
+
+            p {
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                display: block;
+                text-align: center;
+                font-size: 10pt;
+                color: #565656;
+                position: relative;
+            
+                &:after {
+                    content: "";
+                    width: 70%;
+                    display: inline-block;
+                    height: 3px;
+                    background: #53a1c5;
+                }
+            }
+        }
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1680px) {
+    .slide-img {
+        background-size: contain!important;
+    }
+ } 
+ 

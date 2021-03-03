@@ -1,0 +1,71 @@
+[{
+        "id": 1,
+        "bankName": "banklogos halkbankLogo",
+        "bankBranch": "Adapazarı Şubesi - Türk Lirası Hesabı",
+        "bankAccountCurrency": "Türk Lirası Hesabı",
+        "iban": "TR 65 0001 0017 4503 2156 2050 21"
+    },
+    {
+        "id": 2,
+        "bankName": "banklogos akbankLogo",
+        "bankBranch": "Adapazarı Şubesi - Türk Lirası Hesabı",
+        "bankAccountCurrency": "Türk Lirası Hesabı",
+        "iban": "TR 65 0001 0017 4503 2156 2050 21"
+    },
+    {
+        "id": 3,
+        "bankName": "banklogos vakifbankLogo",
+        "bankBranch": "Adapazarı Şubesi - Türk Lirası Hesabı",
+        "bankAccountCurrency": "Türk Lirası Hesabı",
+        "iban": "TR 22 0020 9000 0014 3597 0000 45"
+    },
+    {
+        "id": 4,
+        "bankName": "banklogos ziraatLogo",
+        "bankBranch": "Adapazarı Şubesi - Türk Lirası Hesabı",
+        "bankAccountCurrency": "Türk Lirası Hesabı",
+        "iban": "TR 22 0020 9000 0014 3597 0000 45"
+    },
+    {
+        "id": 5,
+        "bankName": "banklogos yapikrediLogo",
+        "bankBranch": "Adapazarı Şubesi - Türk Lirası Hesabı",
+        "bankAccountCurrency": "Türk Lirası Hesabı",
+        "iban": "TR 22 0020 9000 0014 3597 0000 45"
+    },
+    {
+        "id": 6,
+        "bankName": "banklogos denizbankLogo",
+        "bankBranch": "Adapazarı Şubesi - Türk Lirası Hesabı",
+        "bankAccountCurrency": "Türk Lirası Hesabı",
+        "iban": "TR 22 0020 9000 0014 3597 0000 45"
+    },
+    {
+        "id": 7,
+        "bankName": "banklogos albarakaLogo",
+        "bankBranch": "Adapazarı Şubesi - Türk Lirası Hesabı",
+        "bankAccountCurrency": "Türk Lirası Hesabı",
+        "iban": "TR 22 0020 9000 0014 3597 0000 45"
+    },
+    {
+        "id": 8,
+        "bankName": "banklogos fibabankLogo",
+        "bankBranch": "Adapazarı Şubesi - Türk Lirası Hesabı",
+        "bankAccountCurrency": "Türk Lirası Hesabı",
+        "iban": "TR 22 0020 9000 0014 3597 0000 45"
+    },
+    {
+        "id": 9,
+        "bankName": "banklogos finansbankLogo",     
+        "bankBranch": "Adapazarı Şubesi - Türk Lirası Hesabı",
+        "bankAccountCurrency": "Türk Lirası Hesabı",
+        "iban": "TR 22 0020 9000 0014 3597 0000 45"
+    },
+    {
+        "id": 10,
+        "bankName": "banklogos alternatifbankLogo",
+        "bankBranch": "Adapazarı Şubesi - Türk Lirası Hesabı",
+        "bankAccountCurrency": "Türk Lirası Hesabı",
+        "iban": "TR 65 0001 0017 4503 2156 2050 21"
+    }
+]

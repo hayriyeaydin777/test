@@ -1,0 +1,16 @@
+.report-middle-tab {
+  .report-selectbox {
+    width: 300px;
+    border-radius: 230px;
+    background-color: #a9a9a9;
+    border-color: #a9a9a9;
+
+    .clients-selectbox-input {
+      * {
+        border: none !important;
+        color: white;
+        font-size: 15px;
+      }
+    }
+  }
+}

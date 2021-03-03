@@ -1,0 +1,81 @@
+.footer-newsletter {
+  display: flex;
+  border-right: 1px solid #fff;
+  color: #fff;
+  justify-content: flex-end;
+
+  .frame {
+    display: flex;
+    margin: 0 15px 15px 30px;
+    border: 1px solid white;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+    .icon {
+      margin: 15px 20px 15px 30px;
+
+      svg {
+        width: 46px;
+        fill: #fff;
+      }
+    }
+
+    .message {
+      display: flex;
+      flex-grow: 2;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding: 10px 20px 10px 0;
+
+      .title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .slogan {
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+
+    .label {
+      font-size: 20px;
+      font-weight: 400;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      border-left: 1px solid #fff;
+      display: flex;
+      .input-group {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+      }
+      & input {
+        color: $white;
+        background-color: transparent;
+        font-size: 15px;
+        border: none;
+        text-align: end;
+        height: 70px;
+
+        @include placeholder {
+          color: $white;
+        }
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      .footer-send-mail-button {
+        background: white;
+        color: #3a8bb8;
+        border: none;
+        outline: none;
+        padding: 5px;
+        font-size: 16px;
+      }
+    }
+  }
+}

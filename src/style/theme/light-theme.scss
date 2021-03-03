@@ -1,0 +1,16 @@
+.lightTheme {
+  @extend .colorTheme;
+  background-color: #ffaf00;
+  color: #000;
+
+  header{
+    background: #ff6400;
+    h1 {
+      color: #003d09;
+      a {
+        color: #ffffff;
+      }
+    }
+  }
+}
+

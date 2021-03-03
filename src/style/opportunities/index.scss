@@ -1,0 +1,45 @@
+@import "src/style/opportunities/banner";
+@import "src/style/opportunities/slider";
+
+@keyframes basketMove {
+    0% {left: 5px}
+    50% {left: 75px}
+    100% {left: 0px}
+}
+
+.opportunities {
+    height: 400px;
+    position: relative;
+    margin-top: 180px;
+    margin-bottom: 35px;
+    background: #53a1c5;
+    border-radius: 50px;
+
+    .title {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        height: 70px;
+        align-items: center;
+        top: -70px;
+        justify-content: center;
+        font-size: 1.3em;
+        color: #53a1c5;
+
+        &:before {
+            content: "";
+            flex: 1;
+            height: 2px;
+            background: #53a1c5;
+            margin-right: 15px;
+        }
+
+        &:after {
+            content: "";
+            flex: 1;
+            height: 2px;
+            background: #53a1c5;
+            margin-left: 15px;
+        }
+    }
+}

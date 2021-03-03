@@ -1,0 +1,50 @@
+.survey-wrapper {
+  margin-bottom: 40px;
+  .survey-title {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .survey-container {
+    border: 1px solid rgb(167, 168, 170);
+    border-radius: 30px;
+    margin-bottom: 50px;
+
+    .question-wrapper {
+      border-bottom: 1px solid rgb(167, 168, 170);
+      padding: 20px 0px 10px 30px;
+      display: flex;
+      flex-direction: row;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    .question-textarea {
+      border-radius: 10px;
+      width: 100%;
+      border: 1px solid #a7a8aa;
+    }
+  }
+
+  .survey-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(167, 168, 170);
+    border-radius: 30px;
+    .survey-form-title {
+      font-size: 16px;
+      text-align: center;
+    }
+    .survey-form {
+      padding: 15px 40px 40px 30px;
+
+      .submit-survey {
+        border-radius: 10px;
+        background: #3a8bb8;
+        padding: 10px;
+        border: none;
+        outline: 0;
+      }
+    }
+  }
+}

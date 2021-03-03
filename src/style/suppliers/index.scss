@@ -1,0 +1,25 @@
+.suppliers-wrapper {
+  margin-top: 30px;
+  .suppliers-title {
+    background: #539fc4;
+    color: white;
+    padding: 15px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px 0px 5px 0px;
+    letter-spacing: 0.15rem;
+  }
+  .suppliers-content {
+    font-size: 20px;
+    padding: 30px 30px 30px 30px;
+    background: #e8e8e8;
+    .suppliers-image-wrapper {
+      margin-top: 25px;
+
+      .suppliers-image {
+        border: 1px solid #c1c1c1;
+        border-radius: 15px !important;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.suggestion-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  .suggestion-form-title {
+    font-size: 30px;
+  }
+  .suggestion-form {
+    border: 1px solid rgb(167, 168, 170);
+    border-radius: 30px;
+    width: 80%;
+    padding: 30px 40px 40px 30px;
+    .custom-file-label::after {
+      content: 'Yükle';
+    }
+    .suggestion-form-body {
+      .form-group {
+        display: flex;
+        .form-check {
+          margin-right: 15px;
+          margin-left: 5px;
+          label{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .submit-suggestion {
+      border-radius: 10px;
+      background: #3a8bb8;
+      padding: 10px;
+      border: none;
+      outline: 0;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Braxis",
+        "desc": "PASSAT FREN BALATASI P00001",
+        "price": [
+            "150.00",
+            "tl"
+        ],
+        "discount": [
+            "%",
+            "30"
+        ],
+        "img": "braxis",
+        "cargo": 0,
+        "status": true
+    },
+    {
+        "id": 2,
+        "title": "Braxis",
+        "desc": "PASSAT FREN BALATASI P00001",
+        "price": [
+            "150.00",
+            "tl"
+        ],
+        "discount": [
+            "%",
+            "30"
+        ],
+        "img": "braxis",
+        "cargo": 1,
+        "status": true
+    },
+    {
+        "id": 3,
+        "title": "Braxis",
+        "desc": "PASSAT FREN BALATASI P00001",
+        "price": [
+            "150.00",
+            "tl"
+        ],
+        "discount": [
+            "%",
+            "30"
+        ],
+        "img": "braxis",
+        "cargo": 1,
+        "status": true
+    },
+    {
+        "id": 4,
+        "title": "Braxis",
+        "desc": "PASSAT FREN BALATASI P00001",
+        "price": [
+            "150.00",
+            "tl"
+        ],
+        "discount": [
+            "%",
+            "30"
+        ],
+        "img": "braxis",
+        "cargo": 1,
+        "status": true
+    },
+    {
+        "id": 5,
+        "title": "Braxis",
+        "desc": "PASSAT FREN BALATASI P00001",
+        "price": [
+            "150.00",
+            "tl"
+        ],
+        "discount": [
+            "%",
+            "30"
+        ],
+        "img": "braxis",
+        "cargo": 1,
+        "status": true
+    },
+    {
+        "id": 6,
+        "title": "Braxis",
+        "desc": "PASSAT FREN BALATASI P00001",
+        "price": [
+            "150.00",
+            "tl"
+        ],
+        "discount": [
+            "%",
+            "30"
+        ],
+        "img": "braxis",
+        "cargo": 1,
+        "status": true
+    }
+]

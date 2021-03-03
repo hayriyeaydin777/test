@@ -1,0 +1,47 @@
+@import 'src/style/data-table/data-table-icons/information-box/index';
+@import 'src/style/data-table/data-table-icons/product-price-popover/index';
+@import 'image-gallery/index';
+@import 'src/style/data-table/data-table-buttons/choose-company-button/index';
+@import 'src/style/data-table/data-table-buttons/detail-button/index';
+@import 'src/style/data-table/data-table-buttons/remove-followings-button/index';
+@import 'src/style/data-table/data-table-buttons/receipt-button/index';
+@import 'src/style/data-table/data-table-buttons/add-to-basket-button/index';
+@import 'src/style/data-table/data-table-buttons/campaign-button/index';
+@import 'data-table-menu/index';
+
+.data-table-section {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+//Table
+
+ul.MuiList-root.MuiMenu-list.MuiList-padding li:first-child {
+  display: none;
+}
+
+.MuiTableRow-root {
+  border-top: 1px solid rgba(224, 224, 224, 1);
+}
+
+.MuiTableCell-root {
+  padding: 0 5px !important;
+}
+
+.MuiTableCell-alignLeft {
+  border-left: 1px solid rgba(224, 224, 224, 1);
+}
+
+.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters {
+  min-height: 40px;
+}
+
+.MuiTableBody-root tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+tr.MuiTableRow-root.MuiTableRow-hover {
+  &:hover {
+    background: #c5eaff;
+  }
+}

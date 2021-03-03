@@ -1,0 +1,54 @@
+@import 'scss';
+@import 'search';
+@import 'slider';
+@import 'opportunities';
+@import 'product-listing';
+@import 'footer';
+@import 'campaign';
+@import 'data-grid';
+@import 'tab-button';
+@import 'current-account';
+@import 'catalog';
+@import 'basket';
+@import 'oem';
+@import 'order';
+@import 'report';
+@import 'old-payments';
+@import 'popup';
+@import 'context-menu';
+@import 'payment';
+@import 'swal';
+@import 'help';
+@import 'video-chat';
+@import 'tecdata';
+@import 'data-table';
+@import 'others';
+@import '404';
+@import 'about-us';
+@import 'contact';
+@import 'suppliers';
+@import 'terms-of-use';
+@import 'distance-sales-contract';
+@import 'warranty-return-contract';
+@import 'personal-data-use';
+@import 'announcement-popup';
+@import 'search-history-popup';
+@import 'header';
+
+
+
+body {
+  //min-width: 1270px;
+  overflow: auto!important;
+  padding: 0px!important;
+}
+
+.x-large {
+  max-width: 1270px;
+}
+
+/* .main-container {
+  width: calc(100% - 100px);
+} */
+
+.main {min-height: calc(100vh - /*header*/200px - /*search*/145px - /*footer*/506px); }

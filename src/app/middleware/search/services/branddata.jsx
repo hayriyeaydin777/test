@@ -1,0 +1,26 @@
+const branddata = [
+    { title: 'Braxis', },
+    { title: 'Kraftvoll',},
+    { title: 'KYB',},
+    { title: 'Sachs'},
+    { title: 'Kale',},
+    { title: 'A-Tech',},
+    { title: 'Mando',},
+    { title: 'King Pistons', },
+    { title: 'Scaeffler',},
+    { title: 'Glyco',},
+    { title: 'Goetze',},
+    { title: 'Ayfar',},
+    { title: 'Baykar'},
+    { title: 'MXS',},
+    { title: 'Valeo',},
+    { title: 'Yenmak',},
+    { title: 'GMB'},
+    { title: 'Hattat',},
+    { title: 'Mahle',},
+    { title: 'Filtron'},
+    { title: 'Gross',},
+    { title: 'Teknorot',},
+];
+
+export default branddata;

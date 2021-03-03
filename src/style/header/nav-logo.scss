@@ -1,0 +1,41 @@
+.nav-logo{
+    position: relative;
+    height: 100%;
+    z-index: 10;
+
+    img {
+        max-height: 60px;
+        position: relative;
+        z-index: 100;
+        top: 30px;
+        left: -10px;
+    }
+
+    .background-image {
+        content: "";
+        position: absolute!important;
+        border-radius: 60px;
+        width: 158%;
+        height: 107%;
+        left: -22px;
+        background-size: contain!important;
+        top: -8px;
+        background-repeat: no-repeat!important;
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 32%;
+                height: 100%;
+                background: #60646a;
+                left: 0px;
+                top: 0;
+                -webkit-border-top-left-radius: 60px;
+                -webkit-border-bottom-left-radius: 60px;
+                -moz-border-radius-topleft: 60px;
+                -moz-border-radius-bottomleft: 60px;
+                border-top-left-radius: 60px;
+                border-bottom-left-radius: 60px;
+            }
+    }
+}

@@ -1,0 +1,11 @@
+@import "blue-theme";
+@import "light-theme";
+@import "dark-theme";
+
+/* color theme */
+.colorTheme {
+  & {
+    height: 100vh;
+    transition: .3s ease-in-out;
+  }
+}

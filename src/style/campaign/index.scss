@@ -1,0 +1,119 @@
+.campaign {
+    height: 200px;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 40px;
+
+    .title {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        height: 70px;
+        align-items: center;
+        top: -70px;
+        justify-content: center;
+        font-size: 1.3em;
+        color: #53a1c5;
+
+        &:before {
+            content: "";
+            flex: 1;
+            height: 2px;
+            background: #53a1c5;
+            margin-right: 15px;
+        }
+
+        &:after {
+            content: "";
+            flex: 1;
+            height: 2px;
+            background: #53a1c5;
+            margin-left: 15px;
+        }
+    }
+
+    .section-campaign {
+        height: 200px;
+        position: relative;
+
+        .capsule {
+            background: #fff;
+            position: relative;
+            top: 17px;
+            margin: 0;
+            border-radius: 35px;
+            border: 1px solid #53a1c5;
+
+            .end-img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .disc {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        max-height: 20px;
+                    }
+
+                    span {
+                        font-size: 2em;
+                        color: #53a1c5;
+                        display: inline-flex;
+                        flex-direction: column;
+                        line-height: 100%;
+                        font-weight: 900;
+                        padding: 10px;
+
+                        b {
+                            font-size: 0.6em;
+                        }
+                    }
+                }
+            }
+        }
+
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: 0;
+            width: calc(100% - 30px);
+            background: #53a1c5;
+            height: 160px;
+            border-radius: 60px;
+        }
+
+        &>* {color: #fff}
+
+        .text {
+            height: auto;
+
+            &>.hs-empty {
+                height: 160px;
+                align-items: flex-start;
+                justify-content: flex-end;
+                padding-top: 20px;
+                flex-wrap: nowrap;
+
+                &>* {margin: 0}
+
+                &>h2 {
+                    font-size: 25pt;
+                }
+            }
+        } 
+
+        .img {
+            height: auto;
+
+            img {
+                max-height: 220px;
+                position: relative;
+                top: -10px;
+                left: -10px;
+            }
+        }
+    }
+}

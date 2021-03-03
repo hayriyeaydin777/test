@@ -1,0 +1,61 @@
+.bank-boxes {
+  .card {
+    margin: 15px 0 0;
+    border-radius: 20px;
+    border: 1px solid #3a8bb8;
+  }
+  .card-header {
+    margin-top: 0;
+    padding: 0.65rem 0 0.5rem 0.5rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #3a8bb8;
+    text-transform: capitalize;
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .card-body {
+    padding: 0.5rem 0 1rem 1.4rem;
+  }
+  .card-title {
+    margin-top: 0;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .card-text {
+    font-size: 0.8rem;
+  }
+  .card-btn {
+    border-radius: 10px;
+    border: 1px solid #88e132;
+    font-size: 12px;
+    padding: 0.38rem 0.4rem;
+    line-height: 10px;
+    color: #88e132;
+  }
+  .card-btn:focus {
+    background-color: #88e132;
+    color: #ffffff;
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+@media (min-width: 992px) {
+  .bank-boxes {
+    .card-columns {
+      column-count: 4;
+      column-gap: 0.75rem;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .bank-boxes {
+    .card-columns {
+      column-count: 5;
+      column-gap: 0.75rem;
+    }
+  }
+}

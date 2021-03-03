@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "className": "nav home",
+        "title": "Anasayfa",
+        "page": "",
+        "order": 0,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 2,
+        "className": "nav tecdata",
+        "title": "TecData",
+        "page": "tecdata",
+        "order": 1,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 3,
+        "className": "nav search",
+        "title": "Arama",
+        "page": "search",
+        "order": 2,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 4,
+        "className": "nav basket",
+        "title": "Sepet",
+        "page": "basket",
+        "order": 3,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 5,
+        "className": "nav balance",
+        "title": "Bakiye",
+        "page": "balance",
+        "order": 4,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 6,
+        "className": "nav order",
+        "title": "Sipariş",
+        "page": "orders",
+        "order": 5,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 7,
+        "className": "nav oem",
+        "title": "OEM",
+        "page": "oem",
+        "order": 6,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 8,
+        "className": "nav current-account",
+        "title": "Cari Hesap",
+        "page": "current-account",
+        "order": 7,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 9,
+        "className": "nav payment",
+        "title": "Online Öde",
+        "page": "payment",
+        "order": 8,
+        "status": true,
+        "isTabs": true,
+        "tabs": [
+            {
+                "id": 16,
+                "className": "nav",
+                "title": "Geçmiş Ödemeler",
+                "page": "old-payments",
+                "order": 0,
+                "status": true,
+                "isTabs": false,
+                "tabs": []
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "className": "nav catelog",
+        "title": "Katalog",
+        "page": "catelog",
+        "order": 9,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 11,
+        "className": "nav report",
+        "title": "Rapor",
+        "page": "report",
+        "order": 10,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 12,
+        "className": "nav salesperson hidden-1024",
+        "title": "Plasiyer",
+        "page": "salesperson",
+        "order": 11,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 13,
+        "className": "nav campaignproducts",
+        "title": "Kampanya",
+        "page": "campaign-products",
+        "order": 12,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 14,
+        "className": "nav other hidden-1024",
+        "title": "İletişim",
+        "page": "others",
+        "order": 13,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    },
+    {
+        "id": 15,
+        "className": "nav hamburgerlistmenu",
+        "title": "Diğer",
+        "page": "",
+        "order": 14,
+        "status": true,
+        "isTabs": false,
+        "tabs": []
+    }
+    
+]

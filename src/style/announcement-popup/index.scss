@@ -1,0 +1,28 @@
+.announcement-icon {
+  width: 30px;
+  height: 30px;
+  fill: #6c757d;
+}
+
+.announcement-wrapper {
+  .announcement-title {
+    background: #539fc4;
+    color: white;
+    padding: 15px;
+    margin: 0px 0px 5px 0px;
+    letter-spacing: 0.15rem;
+  }
+  .announcement-item-wrapper {
+    ul {
+      list-style: none;
+      padding-inline-start: 10px;
+      li {
+        border-bottom: 1px solid #e0e0e0;
+        padding: 15px 0px 15px 0px;
+      }
+    }
+    span {
+      margin-right: 20px;
+    }
+  }
+}

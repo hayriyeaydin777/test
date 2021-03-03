@@ -1,0 +1,34 @@
+.search-button-div {
+    border-radius: 35px;  
+    align-items: center;     
+    border: 1px solid #3a8bb8;
+    height: 38px;
+    background:white;
+    color:black;
+    cursor: pointer;
+    &:hover {
+        background: #fff;
+    }
+    .oem-search-btn {
+        border-radius: 20px;
+        background: #3a8bb8;
+        position: absolute;
+        right: 5px;
+        font-size: 9pt;
+        min-height: inherit;
+        height: 30px;
+        line-height: 100%;
+        padding: 0 15px;
+        &:hover {
+            background: #235e7c;
+        }
+    }
+    .oem-search-input{
+        height: auto;
+        * {
+            font-size: 9pt;
+            min-width: 210px;
+            
+        }
+    }
+}

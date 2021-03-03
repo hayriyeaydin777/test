@@ -1,0 +1,18 @@
+.blueTheme {
+  @extend .colorTheme;
+  background-color: #00faff;
+  color: #fff;
+  a {
+    color: yellow;
+  }
+
+  header{
+    background: #00adff;
+    h1 {
+      color: #2675ff;
+      a {
+        color: #ffffff;
+      }
+    }
+  }
+}

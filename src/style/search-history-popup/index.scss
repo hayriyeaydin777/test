@@ -1,0 +1,23 @@
+.search-history-icon {
+  background: #539fc4;
+  outline: none;
+  border: none;
+  &:focus {
+    outline: 0;
+  }
+  svg {
+    fill: white;
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.search-history-wrapper {
+  .search-history-title {
+    background: #539fc4;
+    color: white;
+    padding: 15px;
+    margin: 0px 0px 5px 0px;
+    letter-spacing: 0.15rem;
+  }
+}

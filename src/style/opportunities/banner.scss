@@ -1,0 +1,96 @@
+.opportunities .banner {
+    width: 30%;
+    position: relative;
+    height: 400px;
+    min-width: 350px;
+
+    &>.row {
+        height: 400px;
+        position: relative;
+        z-index: 10;
+        flex-direction: row;
+        align-items: stretch;
+
+        .opp-text {
+            color: #53a1c5;
+            line-height: 100%;
+            padding-right: 15%;
+            font-weight: 700;
+        }
+
+        .opp-logo {
+            width: 100%;
+            border-top: 2px solid #53a1c5;
+            border-bottom: 2px solid #53a1c5;
+            border-left: 2px solid #53a1c5;
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                width: calc(100% - 130px);
+            }
+
+            span {
+                width: 130px;
+                font-size: 2em;
+                display: block;
+                line-height: 100%;
+                text-align: center;
+                padding: 5px;
+                color: #53a1c5;
+                font-weight: 800;
+
+                b {
+                    font-size: 1.7em;
+                }
+            }
+        }
+
+        .opp-title {
+            padding-right: 15%;
+            font-size: 12pt;
+            color: #53a1c5;
+        }
+
+        .opp-end {
+            padding-right: 15%;
+            font-size: 10pt;
+            color: #53a1c5;
+        }
+    }
+
+    &:before {
+        content: "";
+        display: block;
+        width: 150%;
+        height: 400px;
+        position: absolute;
+        background: #fff;
+        top: 0px;
+        border-radius: 50px;
+        left: -50%;
+        border: 2px solid #53a1c5;
+        -webkit-border-radius: 50px;
+        -webkit-border-top-left-radius: 70px;
+        -webkit-border-bottom-left-radius: 70px;
+        -moz-border-radius: 50px;
+        -moz-border-radius-topleft: 70px;
+        -moz-border-radius-bottomleft: 70px;
+        border-radius: 50px;
+        border-top-left-radius: 70px;
+        border-bottom-left-radius: 70px;
+        -webkit-box-shadow: -9px 0px 13px -9px rgba(0,0,0,0.41);
+        -moz-box-shadow: -9px 0px 13px -9px rgba(0,0,0,0.41);
+        box-shadow: -9px 0px 13px -9px rgba(0,0,0,0.41);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .opportunities .banner {
+        min-width: 298px;
+    }
+}

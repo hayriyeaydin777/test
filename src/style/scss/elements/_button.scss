@@ -1,0 +1,17 @@
+/* Button */
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+	background-color: transparent ;
+	color: $white;
+	
+	&:hover, &:active {
+	}
+	
+	&:active {
+	}
+	
+}

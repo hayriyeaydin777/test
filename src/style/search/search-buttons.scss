@@ -1,0 +1,81 @@
+.see-basket {
+  width: 750px;
+  height: 450px;
+
+  .see-basket-row {
+    margin: auto;
+    width: 750px;
+    height: 450px;
+  }
+  .product-image {
+    margin: auto;
+  }
+
+  .brand-logo {
+    width: 67px;
+    height: 18px;
+  }
+}
+
+b * {
+  color: black;
+}
+
+.add-basket-button {
+  background: #d40104;
+  border-radius: 8px;
+  width: 150px;
+  height: 35px;
+  border: 1px solid #d40104;
+  outline: none;
+  margin-right: 11px;
+  margin-left: 11px;
+
+  &:focus {
+    outline: 0;
+  }
+  .basket-icon {
+    height: 23px;
+    height: 25px;
+    fill: white;
+    margin-right: 10px;
+  }
+}
+
+.delete-button {
+  background: #696969;
+  border-radius: 8px;
+  border: 1px solid #696969;
+  width: 75px;
+  height: 35px;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.number {
+  border: 1px solid grey;
+  border-radius: 8px;
+  width: 70px;
+  height: 35px;
+  .math-symbols {
+    background: transparent;
+    border: none;
+    color: grey;
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+.note-input{
+  border: 1px solid grey;
+    border-radius: 8px;
+    width: 350px;
+    height: 35px;
+}

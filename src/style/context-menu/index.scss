@@ -1,0 +1,27 @@
+.react-contexify.context-menu {
+    min-width: 100px !important;
+    border-radius: 0px;
+    color: #6c757d;
+    font-weight: 300;
+    .context-menu-icon {
+      width: 25px;
+      fill: #6c757d;
+      margin-right: 10px;
+    }
+    .react-contexify.context-menu .react-contexify__item :hover {
+      background: #6b5c5c;
+  }
+  
+    /*  &:hover .context-menu-icon {
+        fill: white;
+      } */
+  
+    /* .react-contexify__item:hover {
+      color: white;
+      background: #6c757d;
+      &:hover .context-menu-icon {
+        fill: white;
+      }
+    } */
+  }
+  

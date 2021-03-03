@@ -1,0 +1,23 @@
+@import 'src/style/data-table/image-gallery/image-gallery-slider';
+
+.data-table-product-image {
+  display: flex;
+  justify-content: center;
+  svg {
+    min-width: 25px;
+    min-height: 25px;
+    filter: white;
+    fill: #60646a;
+  }
+}
+
+.product-image-hover {
+  height: 10vw;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}

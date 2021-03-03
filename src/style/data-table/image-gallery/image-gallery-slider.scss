@@ -1,0 +1,30 @@
+.product-image-gallery-slider {
+    padding: 40px;
+  
+    .slick-slide img {
+      margin: auto;
+    }
+    .slick-slider {
+      .slick-prev {
+        left: 170px;
+        z-index: +1;
+        &:before {
+          color: grey;
+          opacity: 1;
+          font-size: 25px;
+          line-height: 0px;
+        }
+      }
+      .slick-next {
+        right: 170px;
+        z-index: +1;
+        &:before {
+          color: grey;
+          opacity: 1;
+          font-size: 25px;
+          line-height: 0px;
+        }
+      }
+    }
+  }
+  

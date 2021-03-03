@@ -1,0 +1,189 @@
+.tag {
+    /*
+    background-color: #f4f4f4;
+    border: 1px solid #e9e9e9;
+    padding: 2px 0 2px 2px;
+    border-radius: 2px;*/
+    display: none
+}
+
+.tag:focus-within {
+    background-color: #e9e9e9;
+    border-color: #a0a0a0
+}
+
+
+.node>label {
+    cursor: pointer;
+    margin-left: 2px;
+    color: #64a3c1;
+}
+
+.tag-list {
+    display: inline;
+    padding: 0;
+    margin: 0
+}
+
+.tag-item {
+    display: inline-block;
+}
+
+.tag-item .search {
+    margin-top: 3px;
+    margin-left: 10px;
+    border-radius: 30px;
+    width: 88px;
+    height: 30px;
+    outline: none;
+    text-align: center;
+    border: none;
+    float: left;
+}
+
+.tag-item:last-child {
+    margin-right: 4px
+}
+
+.node {
+    list-style: none;
+    white-space: nowrap;
+    padding: 4px
+}
+
+.node.leaf.collapsed {
+    display: none
+}
+
+.node.disabled>* {
+    color: gray;
+    cursor: not-allowed
+}
+
+.node.match-in-children.hide .node-label {
+    opacity: .5
+}
+
+.node.checked.focused {
+    border: 1px solid grey;
+    border-radius: 30px;
+    height: 35px;
+}
+
+.toggle {
+    white-space: pre;
+    margin-right: 4px;
+    cursor: pointer
+}
+
+.toggle:after {
+    content: " "
+}
+
+.toggle.collapsed:after {
+    content: '\2023';
+    color: grey;
+    font-size: 20px;
+    line-height: 0px;
+
+}
+
+.toggle.expanded:after {
+    content: '\2023';
+    color: grey;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.searchModeOn .toggle {
+    display: none
+}
+
+.checkbox-item,
+.radio-item {
+    vertical-align: middle;
+    margin: 0 4px 0 0
+}
+.checkbox-item:indeterminate { 
+    content: "\25BC";
+    vertical-align: middle;
+    color: #3c3c3c;
+    margin-right: 32px ;}
+
+.checkbox-item.simple-select,
+.radio-item.simple-select {
+    display: none
+}
+
+.hide:not(.match-in-children) {
+    display: none
+}
+
+.react-dropdown-tree-select .dropdown {
+    position: relative;
+    display: table
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger {
+    width: 200px;
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #64a3c1;
+    border-radius: 70px;
+    font-size: 9pt;
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger.arrow {
+    cursor: pointer
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger.arrow.bottom:after {
+    display: none;
+    /*
+    content: "\25BC";
+    vertical-align: middle;
+    color: #3c3c3c;
+    margin-right: 2px */
+
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger.arrow.top:after {
+    display: none;
+    /*
+    content: "\25B2";
+    vertical-align: middle;
+    color: #3c3c3c;
+    margin-right: 2px */
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger.arrow.disabled {
+    cursor: not-allowed
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger.arrow.disabled.bottom:after {
+    color: #b9b9b9
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-content {
+    position: absolute;
+    padding: 4px;
+    z-index: 1;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, .05);
+  
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-content .search {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-content ul {
+    margin: 0;
+    padding: 0
+}
+
+/*# sourceMappingURL=styles.css.map*/

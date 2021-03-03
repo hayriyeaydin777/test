@@ -1,0 +1,8 @@
+.table-add-to-basket-button {
+    border: none;
+    font-size: 16px;
+    color: #3a8bb8;
+    &:focus {
+      outline: 0 !important;
+    }
+  }

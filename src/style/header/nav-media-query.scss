@@ -1,0 +1,30 @@
+/* @media screen and (min-width: 1680px) and (max-width: 1920px) {
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1679px) {
+}
+@media screen and (min-width: 1290px) and (max-width: 1680px) {
+} */
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+    .big-nav-widget {
+      .widget-icons-wrapper {
+        ul {
+          li {
+            padding: 0px;
+          }
+        }
+      }
+      .widget-user-menu {
+        ul {
+          li {
+            font-size: 14px;
+          }
+        }
+      }
+      .hidden-1024{
+        display: none;
+      }
+    }
+  }
+  

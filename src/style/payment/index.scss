@@ -1,0 +1,99 @@
+@import '../../../../yucesoft-b4b/node_modules/react-credit-cards/es/styles';
+.payment-form-capsule {
+  display: flex;
+  justify-content: space-evenly;
+  .payment-form-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 15px;
+    border: 1px solid #a7a8aa;
+    border-radius: 30px;
+    justify-content: center;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .payment-table-container {
+    svg {
+      max-height: 70px;
+    }
+    thead {
+      display: block;
+    }
+    tbody {
+      display: block;
+      overflow-y: scroll;
+      height: 400px;
+    }
+    td,
+    th {
+      width: 126.5px;
+      white-space: nowrap;
+    }
+    .table td,
+    .table th {
+      padding: 10px !important;
+      text-align: center;
+      vertical-align: middle !important;
+      border-top: 1px solid #dee2e6;
+      font-size: 14px;
+    }
+  }
+
+  .payment-form-container {
+    .confirm-payment-button {
+      background: #17445d;
+      color: white;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+  .payment-form-wrapper-right {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+    border: 1px solid #a7a8aa;
+    border-radius: 30px;
+    .with-link-button {
+      background: #17445d;
+      color: white;
+    }
+  }
+
+  .purchase-options {
+    /*   margin-top: 29px;
+  background: #adbac3;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem; */
+    margin-top: 25px;
+    background: #17445d;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    .span {
+      vertical-align: middle;
+    }
+    svg {
+      margin-right: 10px;
+      vertical-align: middle;
+      width: 35px;
+      fill: white;
+    }
+  }
+
+  a {
+    cursor: pointer;
+  }
+
+  .bank-logo {
+    width: 122px;
+  }
+}

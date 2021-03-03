@@ -1,0 +1,21 @@
+.tab-button-group {
+  button {
+    min-height: 20px;
+  }
+  .icon {
+    font-size: 14px;
+    margin-right: 3px;
+  }
+}
+
+.page-tab {
+  width: 100%;
+  height: auto;
+
+  &.tab-active {
+    display: block;
+  }
+  &.tab-passive {
+    display: none;
+  }
+}

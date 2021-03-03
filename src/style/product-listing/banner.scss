@@ -1,0 +1,62 @@
+.popular-products .popular-banner {
+    min-width: 260px;
+    max-width: 260px;
+    position: absolute;
+    right: 0;
+    margin-top: 110px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-between;
+
+    .text {
+        width: 100%;
+        color: #53a1c5;
+        font-size: 15pt;
+        line-height: 125%;
+        margin: 0;
+    }
+
+    .logo {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    * {color: #53a1c5;}
+
+    .disc {
+        width: 130px;
+        font-size: 1.5em;
+        display: flex;
+        line-height: 100%;
+        text-align: center;
+        padding: 5px;
+        color: #53a1c5;
+        font-weight: 800;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 15px 0;
+
+        b {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 1.7em;
+        }
+    }
+
+    .p-title {
+        width: 100%;
+        font-size: 9pt;
+        margin: 0;
+    }
+
+    .end {
+        font-size: 8pt;
+    }
+}

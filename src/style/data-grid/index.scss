@@ -1,0 +1,122 @@
+/* @import "./context.scss";
+@import "./grid.scss";
+
+.data-grid {
+    width: 100%;
+
+    .mobile-contex-menu {
+        display: none;
+    }
+}
+.grid-scroll {
+    width: 100%;
+    
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0);
+        box-shadow: inset 0 0 6px rgba(255, 255, 255, 0);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #88e132;
+    }
+
+    ::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(228, 228, 228, 0.4);
+    }
+}
+
+.grid-table {
+    height: calc(100vh - 200px - 130px - 60px);
+    overflow: auto;
+    width: 1270px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+
+    .sortable-table-body {
+        .react-contextmenu-wrapper {
+            display: flex;
+            font-weight: 400;
+            align-items: center;
+            border: none;
+        }
+    }
+
+    .svg-icon {
+        width: 24px;
+        height: auto;
+    }
+
+    table {
+        position: relative;
+        thead {
+            tr {
+                th {
+                    position: sticky;
+                    top: 0;
+                }
+            }
+        }
+    }
+
+    .MuiTableCell-root {
+        font-size: 9pt;
+    }
+
+    .note-message {
+        background: #ddd;
+        padding: 0 7px;
+        border-radius: 100%;
+        margin-left: 5px;
+        position: relative;
+        z-index: 10;
+
+        .note-box {
+            display: none;
+            transform-origin: 0 0;
+            transform: rotate(-15deg);
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            padding: 15px;
+            font-size: 9pt;
+            font-style: normal;
+            line-height: 190%;
+            transition: ease all .2s;
+            min-width: 195px;
+            max-width: 250px;
+            white-space: normal;
+            font-weight: bold;
+            -webkit-box-shadow: 11px 9px 16px -5px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 11px 9px 16px -5px rgba(0, 0, 0, 0.75);
+            box-shadow: 11px 9px 16px -5px rgba(0, 0, 0, 0.75);
+        
+            &.yellow-background {
+                background: #f6ee71;
+                -webkit-transform: rotate(-2deg);
+                -moz-transform: rotate(-2deg);
+                -o-transform: rotate(-2deg);
+                -ms-transform: rotate(-2deg);
+                transform: rotate(-2deg);
+            }
+        }
+
+        &:hover {
+            z-index: 100;
+            background: #f6ee71;
+            .note-box {display: block; z-index: -1;}
+        }
+    }
+
+    .table-img-btn {
+        color: #000;
+        margin: 0;
+        padding: 0;
+        line-height: 100%;
+
+        &:hover {text-decoration: none}
+    }
+} */

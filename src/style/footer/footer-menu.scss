@@ -1,0 +1,39 @@
+.footer-menu {
+	margin-bottom: 50px;
+	
+	.list-menu {
+		width: 22%;
+	}
+	
+	& ul {
+		width: 100%;
+		list-style-type: none;
+		margin: 0 0 0 15px;
+		padding: 0 15px;
+		
+		& li {
+			color: $white;
+			line-height: 30px;
+			cursor: pointer;
+			
+			&:hover a {
+				text-decoration: underline;
+			}
+			
+			& a {
+				font-size: 16px;
+				font-weight: 400;
+				white-space: nowrap;
+				color: white;
+			}
+			
+			svg  {
+				color: $white;
+				margin-right: 5px;
+			}
+			
+		}
+	}
+	
+
+}

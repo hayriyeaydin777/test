@@ -1,0 +1,28 @@
+#information-box-popover {
+  border-radius: 0 !important;
+  transform: rotate(-2deg);
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.information-box-icon {
+  border: 0;
+  outline: none;
+  width: 20px;
+  margin-left: 10px;
+  text-align: center;
+  padding: 0;
+  svg{
+    width: 20px;
+    fill: #0992d4;
+  }
+}
+
+.info-paper {
+  font-size: 10px;
+  line-height: 10px;
+  color: #333333;
+  background-color: #ffffb5;
+  padding: 10px;
+  margin: 0;
+}
