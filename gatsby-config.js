@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `B4B Yüce Yazılım`,
-    description: `B4B Yüce Yazılım`,
-    siteUrl: `https://b4b2.yuceyazilim.com/`,
+    title: `Test`,
+    description: `Test`,
+    author: `Hayriye Aydin `,
+    siteUrl: `https://hayriyeaydin777.github.io/`,
   },
 /*   flags: {
     PRESERVE_FILE_DOWNLOAD_CACHE: true,
@@ -93,4 +94,5 @@ module.exports = {
     },
     'gatsby-plugin-offline',
   ],
+  pathPrefix: "/test",
 };
