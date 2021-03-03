@@ -17,6 +17,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "homepage": "https://hayriyeaydin777.github.io/test/",
   "dependencies": {
     "@svgr/webpack": "^5.4.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
