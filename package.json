@@ -8,7 +8,7 @@
     "npmclean": "rm -rf node_modules",
     "build": "GENERATE_SOURCEMAP=false && gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run npmclean && npm run serve",
     "serve": "npm run build && gatsby serve -H 0.0.0.0 -p 80",
